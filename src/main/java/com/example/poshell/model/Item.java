@@ -10,7 +10,7 @@ public class Item {
     private int amount;
 
     @Override
-    public String toString(){
+    public String toString() {
         return product.toString() +"\t" + amount;
     }
 }
